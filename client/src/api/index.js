@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = `https://bill-split-fbu8.onrender.com`;
+const url = `https://bill-split-3j0m.onrender.com`;
 
 // Existing receipt-related API calls
 export const fetchReceipts = (token) => axios.get(`${url}/receipts`, {
