@@ -24,9 +24,9 @@ export const createReceipt = async (req, res) => {
 
     const receipt = req.body;
 
-    // const gptResponse = await getReceiptInfo(receipt.uploadedFile)
+    const gptResponse = await getReceiptInfo(receipt.uploadedFile)
 
-    const gptResponse =  {
+    /*const gptResponse =  {
         "items": [
             {
                 "name": "T-Shirt Blue",
@@ -53,7 +53,7 @@ export const createReceipt = async (req, res) => {
         "total_cost": 247.72,
         "payment": 300,
         "change": 52.28
-    }
+    } */
 
     try {
          //Fetch all members
